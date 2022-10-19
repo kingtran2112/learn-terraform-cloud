@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "king-test"
+  # cloud {
+  #   organization = "king-test"
 
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform-cloud"
+  #   }
+  # }
 
   required_providers {
     aws = {
